@@ -30,8 +30,7 @@ TEXT_COL = "Sentence"
 TARGETS = ["anxiety", "sadness", "overwhelm", "amotivation",
            "shame", "hopelessness", "loneliness"]
 
-# Bucket for sentences carrying none of the seven targets. These act as the
-# this pool is "none of the seven targets".
+# Bucket for sentences carrying none of the seven targets.
 NEGATIVE_LABEL = "neutral"
 
 BACKBONES = {
