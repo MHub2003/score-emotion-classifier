@@ -88,4 +88,4 @@ dependencies:
       - urllib3==2.7.0
       - xxhash==3.7.0
       - yarl==1.24.2
-prefix: C:\Users\mattn\miniconda3\envs\emotion
+prefix: [DIRECTORY PATH]
