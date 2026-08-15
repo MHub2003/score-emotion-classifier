@@ -21,9 +21,8 @@ df <- read.csv(DATA_PATH, stringsAsFactors = FALSE)
 cat("=== Real data checks ===\n")
 cat("N rows read:", nrow(df), "\n")
 if (nrow(df) != 298) {
-  stop("N is not 298 -- STOP. Do not proceed until this is understood ",
-       "(handoff doc: 'if you re-run the assembly script and these ",
-       "numbers move, don't proceed until that's understood').")
+  stop("N is not 298 -- STOP. Do not proceed until this is understood ")
+
 }
 if (!"post_covid" %in% names(df)) {
   stop("post_covid column not found -- check it was joined in correctly.")
