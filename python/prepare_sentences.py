@@ -22,6 +22,7 @@ EMOTION_TARGETS  = ["anxiety", "sadness", "overwhelm", "amotivation",
 
 RECORDED_ONLY    = ["other", "neutral"]                    
 VOCAB            = EMOTION_TARGETS + RECORDED_ONLY                 
+TARGETS = EMOTION_TARGETS
 
 RESIDUAL = "neutral"
 
