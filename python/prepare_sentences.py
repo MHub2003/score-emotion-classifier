@@ -85,7 +85,7 @@ def report(df):
     print("\n  Recorded only (not modelled):")
     for t in RECORDED_ONLY:
         print(f"    {t:<14}{int(df[t].sum()):>5}")
-    print(f"\n  Negative pool (all 10 targets = 0): {neg}")
+    print(f"\n  Negative pool (all 7 targets = 0): {neg}")
     print(f"  -> these sentences act as shared negatives for every classifier.")
 
 
