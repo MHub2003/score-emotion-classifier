@@ -8,8 +8,8 @@
 
 source("firth_regression_functions.R")
 
-DATA_PATH <- "C:/Users/mattn/Documents/Dissertation R/regression_dataset.csv"
-OUT_DIR   <- "C:/Users/mattn/Documents/Dissertation R/regression_outputs"
+DATA_PATH <- "[DIRECTORY PATH]"
+OUT_DIR   <- "[DIRECTORY PATH]"
 
 if (!dir.exists(OUT_DIR)) dir.create(OUT_DIR, recursive = TRUE)
 
